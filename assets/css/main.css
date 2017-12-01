@@ -172,6 +172,8 @@ body {
     margin: 90px 0 0 0;
     padding: 22px 0 13px 0;
     cursor: pointer; }
+    .product__button:hover {
+      background: #664A27; }
     @media (max-width: 920px) {
       .product__button {
         margin: 30px 0 0 0; } }
@@ -317,6 +319,8 @@ body {
   padding: 10px; }
   .other__list-img {
     width: 200px; }
+    .other__list-img:hover {
+      opacity: 0.8; }
   .other__list-link {
     color: #9297a3;
     text-decoration: none; }
